@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9403613492,
+              "duration": 5164789394,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 6396442175,
+              "duration": 2515059360,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 93684137,
+              "duration": 108719104,
               "status": "passed"
             },
             "line": 8,
@@ -64,7 +64,7 @@
     "description": "  Everybody wants to know when it\u0027s Friday",
     "id": "is-it-friday-yet?",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/hellocucumber/is_it_friday.feature",
+    "uri": "file:src/test/resources/features/is_it_friday.feature",
     "tags": [
       {
         "name": "@test",
@@ -89,7 +89,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5776585408,
+              "duration": 2701098843,
               "status": "passed"
             },
             "line": 6,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 7239293571,
+              "duration": 2134035985,
               "status": "passed"
             },
             "line": 7,
@@ -113,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 84450572,
+              "duration": 91299729,
               "status": "passed"
             },
             "line": 8,
@@ -141,7 +141,7 @@
     "description": "  Everybody wants to know when it\u0027s Friday",
     "id": "is-it-moday-yet?",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/hellocucumber/is_it_monday.feature",
+    "uri": "file:src/test/resources/features/is_it_monday.feature",
     "tags": [
       {
         "name": "@test",

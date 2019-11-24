@@ -1,4 +1,4 @@
-package hellocucumber;
+package stepdefinitions;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

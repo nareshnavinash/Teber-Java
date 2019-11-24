@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/hellocucumber/is_it_friday.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/is_it_friday.feature");
 formatter.feature({
   "name": "Is it Friday yet?",
   "description": "  Everybody wants to know when it\u0027s Friday",
@@ -49,7 +49,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.uri("file:src/test/resources/hellocucumber/is_it_monday.feature");
+formatter.uri("file:src/test/resources/features/is_it_monday.feature");
 formatter.feature({
   "name": "Is it Moday yet?",
   "description": "  Everybody wants to know when it\u0027s Friday",
