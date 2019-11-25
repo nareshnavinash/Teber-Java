@@ -3,11 +3,13 @@ package stepdefinitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import locator.google;
 
 import static org.junit.Assert.*;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public class Stepdefs {
     public static WebDriver driver;
@@ -22,8 +24,9 @@ public class Stepdefs {
 
     @When("I ask whether it's Friday yet")
     public void i_ask_whether_it_s_Friday_yet() {
-        driver.findElement(By.name("q")).sendKeys("trest");
-		driver.findElement(By.name("btnK")).click();
+    	PageFactory.initElements(driver,google.class);
+    	google.search_box.sendKeys("test");
+        google.search_button.click();
     }
 
     @Then("I should be told {string}")

@@ -2,6 +2,8 @@
 /Users/naresh/Desktop/hellocucumber/src/test/java/support/Log.java
 /Users/naresh/Desktop/hellocucumber/src/test/java/support/CommonVerifications.java
 /Users/naresh/Desktop/hellocucumber/src/test/java/support/driver.java
+/Users/naresh/Desktop/hellocucumber/src/test/java/locator/base.java
+/Users/naresh/Desktop/hellocucumber/src/test/java/locator/google.java
 /Users/naresh/Desktop/hellocucumber/src/test/java/stepdefinitions/RunCucumberTest.java
 /Users/naresh/Desktop/hellocucumber/src/test/java/support/globalvariable.java
 /Users/naresh/Desktop/hellocucumber/src/test/java/support/ScrollUtilities.java

@@ -1,6 +1,8 @@
 support/FormControlUtilities.class
+locator/google.class
 support/CommonVerifications.class
 stepdefinitions/Stepdefs.class
+locator/base.class
 support/Log.class
 stepdefinitions/RunCucumberTest.class
 support/driver.class
