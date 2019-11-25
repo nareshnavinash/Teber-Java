@@ -1,3 +1,12 @@
+support/FormControlUtilities.class
+support/CommonVerifications.class
 stepdefinitions/Stepdefs.class
-support/globalvariable.class
+support/DateTimeUtilities.class
+support/DataTable.class
+support/Log.class
+support/TableUtilities.class
 stepdefinitions/RunCucumberTest.class
+support/WaitUtilities.class
+support/globalvariable.class
+support/ScrollUtilities.class
+support/AssortedUtilities.class

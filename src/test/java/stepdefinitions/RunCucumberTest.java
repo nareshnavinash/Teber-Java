@@ -23,7 +23,7 @@ public class RunCucumberTest
 		String i = g.getImplicitWait();
 		String b = g.getBrowser();
 		System.out.println(i);
-		System.out.println(b);
+		System.out.println(b);	
 	}
 	
 	
