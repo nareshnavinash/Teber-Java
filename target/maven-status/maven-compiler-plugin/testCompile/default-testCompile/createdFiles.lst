@@ -6,6 +6,7 @@ support/DataTable.class
 support/Log.class
 support/TableUtilities.class
 stepdefinitions/RunCucumberTest.class
+support/driver.class
 support/WaitUtilities.class
 support/globalvariable.class
 support/ScrollUtilities.class

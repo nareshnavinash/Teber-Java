@@ -21,9 +21,8 @@ public class globalvariable {
 	        prop.load(input);
 
 	        // get the property value and print it out
-	        System.out.println(prop.getProperty("implicit_wait"));
-	        System.out.println(prop.getProperty("browser"));
-	        browser = prop.getProperty("browser");
+	        support.Log.debug("Implicit Wait is %s" + prop.getProperty("implicit_wait"));
+	        support.Log.debug("Browser is %s" + prop.getProperty("browser"));
 	        setImplicitWait(prop.getProperty("implicit_wait"));
 	        setBrowser(prop.getProperty("browser"));
 	    	} catch (IOException ex) {
