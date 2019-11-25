@@ -9,12 +9,6 @@ import static org.junit.Assert.*;
 
 public class CommonVerifications {
 
-//    public static void checkValErrorList(String errorList, String[] valErrorMsgs) {
-//        for (int i = 0; i < valErrorMsgs.length; i++) {
-//            assertTrue(errorList.contains(valErrorMsgs[i]),
-//                    		  "Incorrect Validation Message " + i);
-//        }
-//    }
 
     public static void checkEqualsStrings(String[] actual, String[] expected) {
         for (int i = 0; i < actual.length; i++) {
@@ -32,18 +26,5 @@ public class CommonVerifications {
 					 											+ expected.get(i));
         }
     }
-    
-//    public static void checkPageTitle(WebDriver driver, String title){
-//        assertTrue(driver.getTitle().contains(title), 
-//        				  "Expected: " + title + ", Actual: " + driver.getTitle());
-//    }
-//    
-//    public static void checkElementVisible(WebDriver driver, By locator, String message){
-//    	assertTrue(driver.findElement(locator).isDisplayed(), message);
-//    }
-//    
-//    public static void checkElementVisible(WebDriver driver, WebElement e, String message){
-//    	assertTrue(e.isDisplayed(), message);
-//    }
-    
+
 }
