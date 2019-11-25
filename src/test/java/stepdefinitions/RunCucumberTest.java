@@ -26,8 +26,8 @@ public class RunCucumberTest
 		globalvariable g = new globalvariable();
 		String i = g.getImplicitWait();
 		String b = g.getBrowser();
-		support.Log.debug("Browser is %s" + b);
-		support.Log.debug("Implicit Wait is %s" + i);
+		support.Log.debug("Browser is " + b);
+		support.Log.debug("Implicit Wait is " + i);
 	}
 	
 	

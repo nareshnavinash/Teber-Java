@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4948345429,
+              "duration": 10477121990,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1599137678,
+              "duration": 4682043115,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 98517822,
+              "duration": 109338954,
               "status": "passed"
             },
             "line": 8,
@@ -65,83 +65,6 @@
     "id": "is-it-friday-yet?",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/is_it_friday.feature",
-    "tags": [
-      {
-        "name": "@test",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 5,
-        "name": "Monday isn\u0027t Friday",
-        "description": "",
-        "id": "is-it-moday-yet?;monday-isn-t-friday",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2673650396,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "today is Sunday",
-            "match": {
-              "location": "Stepdefs.today_is_Sunday()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1713744094,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I ask whether it\u0027s Friday yet",
-            "match": {
-              "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 91853883,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I should be told \"Nope\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Nope\"",
-                  "offset": 17
-                }
-              ],
-              "location": "Stepdefs.i_should_be_told(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@test"
-          }
-        ]
-      }
-    ],
-    "name": "Is it Moday yet?",
-    "description": "  Everybody wants to know when it\u0027s Friday",
-    "id": "is-it-moday-yet?",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/is_it_monday.feature",
     "tags": [
       {
         "name": "@test",

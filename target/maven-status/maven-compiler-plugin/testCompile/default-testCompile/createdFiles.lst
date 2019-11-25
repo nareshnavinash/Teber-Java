@@ -1,10 +1,7 @@
 support/FormControlUtilities.class
 support/CommonVerifications.class
 stepdefinitions/Stepdefs.class
-support/DateTimeUtilities.class
-support/DataTable.class
 support/Log.class
-support/TableUtilities.class
 stepdefinitions/RunCucumberTest.class
 support/driver.class
 support/WaitUtilities.class
