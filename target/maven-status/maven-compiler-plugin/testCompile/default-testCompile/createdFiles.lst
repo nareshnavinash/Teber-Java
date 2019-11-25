@@ -1,4 +1,3 @@
-support/FormControlUtilities.class
 locator/google.class
 support/CommonVerifications.class
 stepdefinitions/Stepdefs.class
@@ -8,5 +7,6 @@ stepdefinitions/RunCucumberTest.class
 support/driver.class
 support/WaitUtilities.class
 support/globalvariable.class
+model/googlesearch.class
 support/ScrollUtilities.class
 support/AssortedUtilities.class

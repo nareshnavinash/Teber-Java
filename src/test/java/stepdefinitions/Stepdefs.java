@@ -7,7 +7,6 @@ import locator.google;
 
 import static org.junit.Assert.*;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -25,13 +24,12 @@ public class Stepdefs {
     @When("I ask whether it's Friday yet")
     public void i_ask_whether_it_s_Friday_yet() {
     	PageFactory.initElements(driver,google.class);
-    	google.search_box.sendKeys("test");
-        google.search_button.click();
+    	model.googlesearch.search_for(driver, "test");
     }
 
     @Then("I should be told {string}")
     public void i_should_be_told(String expectedAnswer) {
-        assertEquals("asdf", "asdf");
+        assertEquals(model.googlesearch.after_search_displayed(driver), true);
         driver.quit();
         
     }

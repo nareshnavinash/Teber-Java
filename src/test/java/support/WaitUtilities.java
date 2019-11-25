@@ -1,6 +1,5 @@
 package support;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,28 +9,10 @@ import support.Log;
 public class WaitUtilities {
 
 
-	public static void waitForElementVisible(WebDriver driver, By locator){
-	    WebDriverWait wait = new WebDriverWait(driver, 60);
-	    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-	    Log.debug("Element visible %s" + element);
-	}
-	
-	public static void waitForElementNotVisible(WebDriver driver, By locator){
-	    WebDriverWait wait = new WebDriverWait(driver, 60);
-	    Boolean visible = wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
-	    Log.debug("Element not visible %s" + visible);
-	}
-	
 	public static void waitForElementVisible(WebDriver driver, WebElement e){
 		WebDriverWait wait = new WebDriverWait(driver, 60);
 		WebElement element = wait.until(ExpectedConditions.visibilityOf(e));
 		Log.debug("Element visible %s" + element);
-	}
-
-	public static void waitForElementClickable(WebDriver driver, By locator){
-		WebDriverWait wait = new WebDriverWait(driver, 60);
-		WebElement e = wait.until(ExpectedConditions.elementToBeClickable(locator));
-		Log.debug("Element Clickable %s" + e);
 	}
 	
 	public static void waitForElementClickable(WebDriver driver, WebElement e){

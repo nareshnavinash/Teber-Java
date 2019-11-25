@@ -1,8 +1,6 @@
 package support;
 
 import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -16,16 +14,6 @@ import org.openqa.selenium.interactions.Actions;
 import support.Log;
 
 public class AssortedUtilities {
-
-	public static String generateUniqueText(){
-	    Date date = new Date();
-	
-	    SimpleDateFormat UNIQUE_DATE_TIME_STRING_FORMAT = new SimpleDateFormat(
-	            "yyyyMMddHHmmSS");
-	    String dateTimeString = UNIQUE_DATE_TIME_STRING_FORMAT.format(date);
-	
-	    return dateTimeString;
-	}
 
 	public static void dragAndDropElement(WebDriver driver, By locator, int xOffset, int yOffset){
 	    WebElement slider = driver.findElement(locator);

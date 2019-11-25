@@ -19,6 +19,9 @@ public class google extends base{
 	@FindBy(how=How.NAME, using="btnK")
 	public static WebElement search_button;
 	
+	@FindBy(how=How.CSS, using="div.logo img[alt*='Google']")
+	public static WebElement after_search_image;
+	
 
 
 
