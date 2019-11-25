@@ -5,7 +5,8 @@ import org.junit.BeforeClass;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
-import io.qameta.allure.Allure;
+// import io.qameta.allure.Allure;
+import support.globalvariable;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -15,9 +16,14 @@ import io.qameta.allure.Allure;
 		features = "src/test/resources/")
 public class RunCucumberTest
 {
+	
 	@BeforeClass
 	public static void setUpClass() {
-	    
+		globalvariable g = new globalvariable();
+		String i = g.getImplicitWait();
+		String b = g.getBrowser();
+		System.out.println(i);
+		System.out.println(b);
 	}
 	
 	

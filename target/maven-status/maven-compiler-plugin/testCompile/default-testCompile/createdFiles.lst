@@ -1,2 +1,3 @@
 stepdefinitions/Stepdefs.class
+support/globalvariable.class
 stepdefinitions/RunCucumberTest.class

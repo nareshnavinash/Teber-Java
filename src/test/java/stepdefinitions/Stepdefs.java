@@ -7,6 +7,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 import static org.junit.Assert.*;
 
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -36,5 +37,6 @@ public class Stepdefs {
     public void i_should_be_told(String expectedAnswer) {
         assertEquals("asdf", "asdf");
         driver.quit();
+        
     }
 }
