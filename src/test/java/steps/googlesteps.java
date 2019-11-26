@@ -1,4 +1,4 @@
-package stepdefinitions;
+package steps;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class Stepdefs {
+public class googlesteps {
     public static WebDriver driver;
 
     @Given("today is Sunday")
@@ -31,6 +31,5 @@ public class Stepdefs {
     public void i_should_be_told(String expectedAnswer) {
         assertEquals(model.googlesearch.after_search_displayed(driver), true);
         driver.quit();
-        
     }
 }

@@ -1,11 +1,12 @@
+runner/RunCucumberTest.class
 locator/google.class
 support/CommonVerifications.class
-stepdefinitions/Stepdefs.class
 locator/base.class
+steps/hooks.class
 support/Log.class
-stepdefinitions/RunCucumberTest.class
 support/driver.class
 support/WaitUtilities.class
+steps/googlesteps.class
 support/globalvariable.class
 model/googlesearch.class
 support/ScrollUtilities.class

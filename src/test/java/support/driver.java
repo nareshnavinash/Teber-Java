@@ -1,5 +1,6 @@
 package support;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -13,6 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class driver implements WebDriver {
 	public static WebDriver dr;
+	public static List<WebDriver> drs = new ArrayList<WebDriver>();
 	globalvariable g = new globalvariable();
 	String implicit_wait = g.getImplicitWait();
 	String browser = g.getBrowser();
@@ -28,6 +30,7 @@ public class driver implements WebDriver {
 //	        dr.manage().window().maximize();
 	 		dr.manage().timeouts().implicitlyWait(Integer.parseInt(implicit_wait), TimeUnit.SECONDS);
 	        driver.dr = dr;
+	        drs.add(driver.dr);
 	        support.Log.debug("Chrome Initialized");
 			break;
 			
@@ -40,6 +43,10 @@ public class driver implements WebDriver {
 	
 	public WebDriver getDriver() {
 		return dr;
+	}
+	
+	public List<WebDriver> getallDriver() {
+		return drs;
 	}
 	
 	@Override

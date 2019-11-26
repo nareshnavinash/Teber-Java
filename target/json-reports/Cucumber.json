@@ -12,31 +12,53 @@
         "steps": [
           {
             "result": {
-              "duration": 5647275324,
+              "duration": 6566525924,
               "status": "passed"
             },
             "line": 6,
             "name": "today is Sunday",
             "match": {
-              "location": "Stepdefs.today_is_Sunday()"
+              "location": "googlesteps.today_is_Sunday()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 4925236,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.handlefailure(Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 22647593008,
+              "duration": 23227756239,
               "status": "passed"
             },
             "line": 7,
             "name": "I ask whether it\u0027s Friday yet",
             "match": {
-              "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
+              "location": "googlesteps.i_ask_whether_it_s_Friday_yet()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 527257,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.handlefailure(Scenario)"
+                }
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 281236541,
+              "duration": 170191351,
               "status": "passed"
             },
             "line": 8,
@@ -48,8 +70,19 @@
                   "offset": 17
                 }
               ],
-              "location": "Stepdefs.i_should_be_told(String)"
+              "location": "googlesteps.i_should_be_told(String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 189497,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.handlefailure(Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -64,7 +97,7 @@
     "description": "  Everybody wants to know when it\u0027s Friday",
     "id": "is-it-friday-yet?",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/is_it_friday.feature",
+    "uri": "file:src/test/resources/features/google_search.feature",
     "tags": [
       {
         "name": "@test",

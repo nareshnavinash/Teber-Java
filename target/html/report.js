@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/is_it_friday.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/google_search.feature");
 formatter.feature({
   "name": "Is it Friday yet?",
   "description": "  Everybody wants to know when it\u0027s Friday",
@@ -24,9 +24,12 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Stepdefs.today_is_Sunday()"
+  "location": "googlesteps.today_is_Sunday()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.afterstep({
   "status": "passed"
 });
 formatter.step({
@@ -34,9 +37,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
+  "location": "googlesteps.i_ask_whether_it_s_Friday_yet()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.afterstep({
   "status": "passed"
 });
 formatter.step({
@@ -44,9 +50,12 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Stepdefs.i_should_be_told(String)"
+  "location": "googlesteps.i_should_be_told(String)"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.afterstep({
   "status": "passed"
 });
 });
