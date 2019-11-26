@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -18,6 +19,7 @@ public class driver implements WebDriver {
 	globalvariable g = new globalvariable();
 	String implicit_wait = g.getImplicitWait();
 	String browser = g.getBrowser();
+	String mode = g.getMode();
 	
 	public driver() {
 		switch(browser)
@@ -25,9 +27,16 @@ public class driver implements WebDriver {
 		case "chrome":
 			support.Log.debug("Initializing chrome");
 			WebDriverManager.chromedriver().arch64().setup();
-	 		WebDriver dr = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			if (mode.equals("headless")) {
+				options.addArguments("disable-infobars","headless","disable-gpu","disable-dev-shm-usage","no-sandbox");
+				support.Log.debug("Chrome will be initialized in headless mode");
+			} else {
+				options.addArguments("disable-infobars","disable-gpu","disable-dev-shm-usage","no-sandbox");
+				support.Log.debug("Chrome will be initialized in with UI");
+			}
+	 		WebDriver dr = new ChromeDriver(options);
 	 		dr.manage().deleteAllCookies();
-//	        dr.manage().window().maximize();
 	 		dr.manage().timeouts().implicitlyWait(Integer.parseInt(implicit_wait), TimeUnit.SECONDS);
 	        driver.dr = dr;
 	        drs.add(driver.dr);

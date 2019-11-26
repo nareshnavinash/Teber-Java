@@ -8,6 +8,7 @@ import java.util.Properties;
 public class globalvariable {
 	public static String implicit_wait;
 	public static String browser;
+	public static String mode;
 	
 	public globalvariable() {
 		super();
@@ -23,8 +24,10 @@ public class globalvariable {
 	        // get the property value and print it out
 	        support.Log.debug("Implicit Wait is " + prop.getProperty("implicit_wait"));
 	        support.Log.debug("Browser is " + prop.getProperty("browser"));
+	        support.Log.debug("Run Mode is " + prop.getProperty("mode"));
 	        setImplicitWait(prop.getProperty("implicit_wait"));
 	        setBrowser(prop.getProperty("browser"));
+	        setMode(prop.getProperty("mode"));
 	    	} catch (IOException ex) {
 	        ex.printStackTrace();
 	    	}
@@ -44,6 +47,14 @@ public class globalvariable {
 	
 	public String getBrowser() {
 		return globalvariable.browser;
+	}
+	
+	public void setMode(String args) {
+		globalvariable.mode = args;
+	}
+	
+	public String getMode() {
+		return globalvariable.mode;
 	}
 	
 }

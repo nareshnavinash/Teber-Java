@@ -30,6 +30,7 @@ public class googlesteps {
     @Then("I should be told {string}")
     public void i_should_be_told(String expectedAnswer) {
         assertEquals(model.googlesearch.after_search_displayed(driver), true);
+//        assertEquals("asdf","efe");
         driver.quit();
     }
 }
