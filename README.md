@@ -8,11 +8,11 @@ Basic Framework setup for Selenium with cucumber, maven and allure in Java
 * Allure reports
 * Jenkins Integration
 * Modes of run via CLI command
+* Headless run
+* Docker Execution
 
 ## Yet to be added
 * Multi Thread run
-* Headless run
-* Docker Execution
 
 ## To run the tests
 ```
@@ -31,3 +31,4 @@ Initiate the driver class inside support package mutiple times with different We
 
 ## Multi Browser
 Currently supports for Chrome browser, but handled in such a way that framework can be easily configured to support multiple browsers. I used webdriver manager to resolve the driver-browser compatibility issues, use the same to add your designated browser (firefox, edge, ie, safari etc.,).
+
