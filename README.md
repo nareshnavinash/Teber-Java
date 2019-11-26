@@ -1,4 +1,4 @@
-# Selenium Cucumber Frmework in Page Object Model
+# Selenium Cucumber Framework in Page Object Model
 
 Basic Framework setup for Selenium with cucumber, maven and allure in Java
 
@@ -7,11 +7,12 @@ Basic Framework setup for Selenium with cucumber, maven and allure in Java
 * Multi browser automation
 * Allure reports
 * Jenkins Integration
-* Docker Execution
 * Modes of run via CLI command
 
 ## Yet to be added
 * Multi Thread run
+* Headless run
+* Docker Execution
 
 ## To run the tests
 ```
@@ -24,3 +25,9 @@ This will install the dependencies and runs the test
 mvn allure:serve
 ```
 This will open the report in your default browser
+
+## Multiple Browser
+Initiate the driver class inside support package mutiple times with different WebDriver objects. You can execute the actions in multiple browsers at the same time by passing the WebDriver Object to the model methods.
+
+## Multi Browser
+Currently supports for Chrome browser, but handled in such a way that framework can be easily configured to support multiple browsers. I used webdriver manager to resolve the driver-browser compatibility issues, use the same to add your designated browser (firefox, edge, ie, safari etc.,).
