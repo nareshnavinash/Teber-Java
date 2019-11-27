@@ -18,14 +18,12 @@ public class RunCucumberTest
 {	
 	@BeforeClass
 	public static void setUpClass() {
-		String mode = null;
 		// Run once
-		System.out.println(mode);
 	}
 	
 	
 	
 }
 
-// mvn test -Dcucumber.options='--tags "@test"'
-// mvn install "-Dmyproperty=my property from command line"
+// mvn test -Dcucumber.options='--tags "@test"' // to run specified tags
+// mvn clean install -DargLine="-DMODE=headless" // to run in headless mode from commandline

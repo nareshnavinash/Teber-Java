@@ -28,6 +28,9 @@ public class driver implements WebDriver {
 			support.Log.debug("Initializing chrome");
 			WebDriverManager.chromedriver().arch64().setup();
 			ChromeOptions options = new ChromeOptions();
+			if (System.getProperty("MODE").equals("headless")) {
+				mode ="headless";
+			}
 			if (mode.equals("headless")) {
 				options.addArguments("disable-infobars","headless","disable-gpu","disable-dev-shm-usage","no-sandbox");
 				support.Log.debug("Chrome will be initialized in headless mode");
