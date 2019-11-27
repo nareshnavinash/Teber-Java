@@ -1,11 +1,11 @@
-2019-11-27 18:09:53 [main] DEBUG Log:27 - Implicit Wait is 20
-2019-11-27 18:09:53 [main] DEBUG Log:27 - Browser is chrome
-2019-11-27 18:09:53 [main] DEBUG Log:27 - Run Mode is UI
-2019-11-27 18:09:53 [main] DEBUG Log:27 - Initializing chrome
-2019-11-27 18:09:55 [main] DEBUG Log:27 - Chrome will be initialized in headless mode
-2019-11-27 18:09:57 [main] DEBUG Log:27 - Chrome Initialized
-2019-11-27 18:10:09 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (fc11e907a8caa02d11d44806941064fd)] -> name: q]
-2019-11-27 18:10:10 [main] DEBUG Log:27 - Element Clickable %s[[ChromeDriver: chrome on MAC (fc11e907a8caa02d11d44806941064fd)] -> name: btnK]
-2019-11-27 18:10:53 [main] DEBUG Log:27 - Scrolled to and clicked on Proxy element for: DefaultElementLocator 'By.name: btnK'
-2019-11-27 18:10:53 [main] INFO  Log:31 - Search is completed
-2019-11-27 18:10:53 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (fc11e907a8caa02d11d44806941064fd)] -> css selector: div.logo img[alt*='Google']]
+2019-11-27 18:54:40 [main] DEBUG Log:27 - Implicit Wait is 20
+2019-11-27 18:54:40 [main] DEBUG Log:27 - Browser is chrome
+2019-11-27 18:54:40 [main] DEBUG Log:27 - Run Mode is UI
+2019-11-27 18:54:40 [main] DEBUG Log:27 - Initializing chrome
+2019-11-27 18:54:41 [main] DEBUG Log:27 - Chrome will be initialized in with UI
+2019-11-27 18:54:43 [main] DEBUG Log:27 - Chrome Initialized
+2019-11-27 18:54:56 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (9d06b11d3b99a030925a0235f67b7d17)] -> name: q]
+2019-11-27 18:54:57 [main] DEBUG Log:27 - Element Clickable %s[[ChromeDriver: chrome on MAC (9d06b11d3b99a030925a0235f67b7d17)] -> name: btnK]
+2019-11-27 18:55:28 [main] DEBUG Log:27 - Scrolled to and clicked on Proxy element for: DefaultElementLocator 'By.name: btnK'
+2019-11-27 18:55:28 [main] INFO  Log:31 - Search is completed
+2019-11-27 18:55:29 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (9d06b11d3b99a030925a0235f67b7d17)] -> css selector: div.logo img[alt*='Google']]

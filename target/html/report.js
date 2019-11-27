@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@regression"
+      "name": "@TC_Google_Search"
     }
   ]
 });
@@ -15,7 +15,16 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
+      "name": "@TC_Google_Search"
+    },
+    {
+      "name": "@scenario_001"
+    },
+    {
       "name": "@regression"
+    },
+    {
+      "name": "@sanity"
     }
   ]
 });

@@ -25,11 +25,16 @@ public class googlesteps {
     	PageFactory.initElements(driver,google.class);
     	model.googlesearch.search_for(driver, "test");
     }
+    
+    @When("I type the {string} in google search bar and click on serach results")
+    public void i_type_the_in_google_search_bar_and_click_on_serach_results(String string) {
+    	PageFactory.initElements(driver,google.class);
+    	model.googlesearch.search_for(driver, string);
+    }
 
     @Then("I should get the results page")
     public void i_should_get_the_results_page() {
     	assertEquals(model.googlesearch.after_search_displayed(driver), true);
-//      assertEquals("asdf","efe");
     	driver.quit();
     }
 }

@@ -10,19 +10,19 @@ public class WaitUtilities {
 
 
 	public static void waitForElementVisible(WebDriver driver, WebElement e){
-		WebDriverWait wait = new WebDriverWait(driver, 60);
+		WebDriverWait wait = new WebDriverWait(driver, Integer.parseInt(globalvariable.implicit_wait));
 		WebElement element = wait.until(ExpectedConditions.visibilityOf(e));
 		Log.debug("Element visible %s" + element);
 	}
 	
 	public static void waitForElementClickable(WebDriver driver, WebElement e){
-		WebDriverWait wait = new WebDriverWait(driver, 120);
+		WebDriverWait wait = new WebDriverWait(driver, Integer.parseInt(globalvariable.implicit_wait));
 		e = wait.until(ExpectedConditions.elementToBeClickable(e));
 		Log.debug("Element Clickable %s" + e);
 	}
 	
 	public static boolean waitForPageTitle(WebDriver driver, String title){
-		WebDriverWait wait = new WebDriverWait(driver, 60);
+		WebDriverWait wait = new WebDriverWait(driver, Integer.parseInt(globalvariable.implicit_wait));
 		return wait.until(ExpectedConditions.titleContains(title));
 	}
 	

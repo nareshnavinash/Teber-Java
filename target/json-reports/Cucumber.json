@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "line": 5,
+        "line": 6,
         "name": "Single term serach",
         "description": "",
         "id": "search-for-a-term-in-google-search;single-term-serach",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 16559103619,
+              "duration": 16303240156,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I navigate to google search page",
             "match": {
               "location": "googlesteps.i_navigate_to_google_search_page()"
@@ -23,7 +23,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 3888324,
+                  "duration": 4033880,
                   "status": "passed"
                 },
                 "match": {
@@ -35,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 43427763030,
+              "duration": 32625225516,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I type the term in google search bar and click on serach results",
             "match": {
               "location": "googlesteps.i_type_the_term_in_google_search_bar_and_click_on_serach_results()"
@@ -46,7 +46,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 196645,
+                  "duration": 193645,
                   "status": "passed"
                 },
                 "match": {
@@ -58,10 +58,10 @@
           },
           {
             "result": {
-              "duration": 171905685,
+              "duration": 228244632,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "I should get the results page",
             "match": {
               "location": "googlesteps.i_should_get_the_results_page()"
@@ -69,7 +69,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 136016,
+                  "duration": 182949,
                   "status": "passed"
                 },
                 "match": {
@@ -82,7 +82,16 @@
         ],
         "tags": [
           {
+            "name": "@TC_Google_Search"
+          },
+          {
+            "name": "@scenario_001"
+          },
+          {
             "name": "@regression"
+          },
+          {
+            "name": "@sanity"
           }
         ]
       }
@@ -94,7 +103,7 @@
     "uri": "file:src/test/resources/features/google_search.feature",
     "tags": [
       {
-        "name": "@regression",
+        "name": "@TC_Google_Search",
         "type": "Tag",
         "location": {
           "line": 1,

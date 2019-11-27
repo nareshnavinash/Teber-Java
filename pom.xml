@@ -14,6 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<aspectj.version>1.9.4</aspectj.version>
 		<compiler.version>1.7</compiler.version>
+		<argLine>-DMODE=UI</argLine>
 	</properties>
 
 	<dependencies>

@@ -3,6 +3,7 @@ package runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import support.globalvariable;
 
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
@@ -19,11 +20,12 @@ public class RunCucumberTest
 	@BeforeClass
 	public static void setUpClass() {
 		// Run once
+		System.out.println(globalvariable.implicit_wait);
 	}
 	
 	
 	
 }
 
-// mvn test -Dcucumber.options='--tags "@test"' // to run specified tags
-// mvn clean install -DargLine="-DMODE=headless" // to run in headless mode from commandline
+// mvn clean install -Dcucumber.options='--tags @scenario_002' // to run specified tags
+// mvn clean install -Dcucumber.options='--tags @sanity' -DargLine="-DMODE=headless" // to run in headless mode from commandline
