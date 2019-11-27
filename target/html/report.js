@@ -28,6 +28,12 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
 formatter.step({
   "name": "I navigate to google search page",
   "keyword": "Given "
@@ -39,6 +45,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.afterstep({
+  "status": "passed"
+});
+formatter.beforestep({
   "status": "passed"
 });
 formatter.step({
@@ -54,6 +63,9 @@ formatter.result({
 formatter.afterstep({
   "status": "passed"
 });
+formatter.beforestep({
+  "status": "passed"
+});
 formatter.step({
   "name": "I should get the results page",
   "keyword": "Then "
@@ -65,6 +77,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.afterstep({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

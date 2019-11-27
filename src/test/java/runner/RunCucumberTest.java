@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = { "pretty:target/pretty/pretty.txt", "html:target/html", "json:target/json-reports/Cucumber.json"}, 
-		strict = false, 
+		strict = true, 
 		monochrome = true,
 		features = "src/test/resources/",
 		glue = "steps" )
@@ -22,9 +22,6 @@ public class RunCucumberTest
 		// Run once
 		System.out.println(globalvariable.implicit_wait);
 	}
-	
-	
-	
 }
 
 // mvn clean install -Dcucumber.options='--tags @scenario_002' // to run specified tags
