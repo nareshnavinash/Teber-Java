@@ -33,6 +33,16 @@ mvn clean install
 ```
 This will install the dependencies and runs the test
 
+### To run along with tags
+```
+mvn clean install -Dcucumber.options='--tags @sanity'
+```
+
+### To run along with tags and arguments
+```
+mvn clean install -Dcucumber.options='--tags @sanity' -DargLine="-DMODE=headless"
+```
+
 ## To get allure report
 ```
 mvn allure:serve
