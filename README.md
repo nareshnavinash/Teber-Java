@@ -2,6 +2,18 @@
 
 Basic Framework setup for Selenium with cucumber, maven and allure in Java
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Made with Ruby](https://img.shields.io/badge/Made%20with-Ruby-red.svg)](https://www.ruby-lang.org/en/)
+[![StackOverflow](http://img.shields.io/badge/Stack%20Overflow-Ask-blue.svg)]( https://stackoverflow.com/users/10505289/naresh-sekar )
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![email me](https://img.shields.io/badge/Contact-Email-green.svg)](nareshnavinash@gmail.com)
+
+
+
+![alt text](src/test/java/support/Teber_Java_gif.gif)
+
+
+
 ## Supports
 * Multiple browser automation
 * Multi browser automation

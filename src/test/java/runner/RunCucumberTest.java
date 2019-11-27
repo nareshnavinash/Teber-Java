@@ -15,11 +15,12 @@ import org.junit.runner.RunWith;
 		features = "src/test/resources/",
 		glue = "steps" )
 public class RunCucumberTest
-{
-	
+{	
 	@BeforeClass
 	public static void setUpClass() {
+		String mode = null;
 		// Run once
+		System.out.println(mode);
 	}
 	
 	
