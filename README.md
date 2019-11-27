@@ -10,7 +10,7 @@ Basic Framework setup for Selenium with cucumber, maven and allure in Java
 
 
 
-![alt text](src/test/java/support/Teber_Java_gif.gif)
+![alt text](src/test/java/support/Teber_Java_gif.gif | width=100)
 
 
 
