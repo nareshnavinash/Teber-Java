@@ -95,3 +95,33 @@ mvn clean install -DargLine="-DMODE=headless"
 
 ## Parallel run 
 Parallel run is yet to be added!!!
+
+
+## Built With
+
+* [Cucumber](https://github.com/cucumber/cucumber-jvm) - Automation core framework
+* [Maven](https://maven.apache.org/) - Dependency manager
+* [Allure Cucumber](https://github.com/allure-framework/allure-cucumberjvm) - For Detailed reporting.
+* [Selenium](https://www.seleniumhq.org/) - For web browser automation.
+
+## Contributing
+
+1. Clone the repo!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Create a pull request.
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on code of conduct, and the process for submitting pull requests.
+
+## Authors
+
+* **[Naresh Sekar](https://github.com/nareshnavinash)**
+
+## License
+
+This project is licensed under the GNU GPL-3.0 License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgments
+
+* To all the open source contributors whose code has been referred to create this framework
