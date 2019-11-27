@@ -1,6 +1,6 @@
-# Selenium Cucumber Framework in Page Object Model
+# Teber-Java
 
-Basic Framework setup for Selenium with cucumber, maven and allure in Java
+Basic Framework setup in Page Object Model for Selenium with cucumber, maven and allure in Java.
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Made with Java](https://img.shields.io/badge/Made%20with-Java-red.svg)](https://www.java.com/en/)
