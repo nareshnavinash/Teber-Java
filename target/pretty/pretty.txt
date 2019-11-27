@@ -1,9 +1,9 @@
-@test
-Feature: Is it Friday yet?
-  Everybody wants to know when it's Friday
+@regression
+Feature: Search for a term in google search
+  Entering a term in google search and verifying result page is displayed
 
-  @test
-  Scenario: Sunday isn't Friday        # src/test/resources/features/google_search.feature:5
-    Given today is Sunday              # googlesteps.today_is_Sunday()
-    When I ask whether it's Friday yet # googlesteps.i_ask_whether_it_s_Friday_yet()
-    Then I should be told "Nope"       # googlesteps.i_should_be_told(String)
+  @regression
+  Scenario: Single term serach                                            # src/test/resources/features/google_search.feature:5
+    Given I navigate to google search page                                # googlesteps.i_navigate_to_google_search_page()
+    When I type the term in google search bar and click on serach results # googlesteps.i_type_the_term_in_google_search_bar_and_click_on_serach_results()
+    Then I should get the results page                                    # googlesteps.i_should_get_the_results_page()

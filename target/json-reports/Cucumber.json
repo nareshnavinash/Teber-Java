@@ -4,26 +4,26 @@
     "elements": [
       {
         "line": 5,
-        "name": "Sunday isn\u0027t Friday",
+        "name": "Single term serach",
         "description": "",
-        "id": "is-it-friday-yet?;sunday-isn-t-friday",
+        "id": "search-for-a-term-in-google-search;single-term-serach",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4389936414,
+              "duration": 16559103619,
               "status": "passed"
             },
             "line": 6,
-            "name": "today is Sunday",
+            "name": "I navigate to google search page",
             "match": {
-              "location": "googlesteps.today_is_Sunday()"
+              "location": "googlesteps.i_navigate_to_google_search_page()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 3838976,
+                  "duration": 3888324,
                   "status": "passed"
                 },
                 "match": {
@@ -35,18 +35,18 @@
           },
           {
             "result": {
-              "duration": 22324090191,
+              "duration": 43427763030,
               "status": "passed"
             },
             "line": 7,
-            "name": "I ask whether it\u0027s Friday yet",
+            "name": "I type the term in google search bar and click on serach results",
             "match": {
-              "location": "googlesteps.i_ask_whether_it_s_Friday_yet()"
+              "location": "googlesteps.i_type_the_term_in_google_search_bar_and_click_on_serach_results()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 219018,
+                  "duration": 196645,
                   "status": "passed"
                 },
                 "match": {
@@ -58,24 +58,18 @@
           },
           {
             "result": {
-              "duration": 360047192,
+              "duration": 171905685,
               "status": "passed"
             },
             "line": 8,
-            "name": "I should be told \"Nope\"",
+            "name": "I should get the results page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Nope\"",
-                  "offset": 17
-                }
-              ],
-              "location": "googlesteps.i_should_be_told(String)"
+              "location": "googlesteps.i_should_get_the_results_page()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 210129,
+                  "duration": 136016,
                   "status": "passed"
                 },
                 "match": {
@@ -88,19 +82,19 @@
         ],
         "tags": [
           {
-            "name": "@test"
+            "name": "@regression"
           }
         ]
       }
     ],
-    "name": "Is it Friday yet?",
-    "description": "  Everybody wants to know when it\u0027s Friday",
-    "id": "is-it-friday-yet?",
+    "name": "Search for a term in google search",
+    "description": "  Entering a term in google search and verifying result page is displayed",
+    "id": "search-for-a-term-in-google-search",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/google_search.feature",
     "tags": [
       {
-        "name": "@test",
+        "name": "@regression",
         "type": "Tag",
         "location": {
           "line": 1,
