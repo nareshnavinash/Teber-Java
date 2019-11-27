@@ -22,6 +22,7 @@ Basic Framework setup for Selenium with cucumber, maven and allure in Java
 * Modes of run via CLI command
 * Headless run
 * Docker Execution
+* Failed Screenshots
 
 ## Yet to be added
 * Multi Thread run
