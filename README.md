@@ -60,7 +60,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'mvn -B -DskipTests clean package'
+        sh 'mvn clean install'
       }
     }
   }
@@ -77,7 +77,10 @@ mvn clean install -Dcucumber.options='--tags "@regression"'
 or
 mvn clean test -Dcucumber.options='--tags "@regression"'
 ```
-Options to select the mode of run `headless or UI` from cli is yet to be added!!!
+Options to select the mode of run `headless or UI` from cli is added. By default have the mode in global.properties file as UI and while running the test suite in server use the following command to invoke the browser in headless mode
+```
+mvn clean install -DargLine="-DMODE=headless"
+```
 
 ## Parallel run 
 Parallel run is yet to be added!!!
