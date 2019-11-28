@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 		strict = true, 
 		monochrome = true,
 		features = "src/test/resources/",
-		glue = "steps" )
+		glue = "stepDefinitions" )
 public class RunCucumberTest
 {	
 	@BeforeClass

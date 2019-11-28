@@ -1,4 +1,4 @@
-package model;
+package pages;
 import support.Log;
 import org.openqa.selenium.WebDriver;
 import locator.google;
