@@ -23,6 +23,7 @@ Basic Framework setup in Page Object Model for Selenium with cucumber, maven and
 * Headless run
 * Docker Execution
 * Failed Screenshots
+* Testdata driven tests
 
 ## Yet to be added
 * Multi Thread run
