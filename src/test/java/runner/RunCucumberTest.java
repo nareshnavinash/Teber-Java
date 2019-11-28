@@ -20,7 +20,8 @@ public class RunCucumberTest
 	@BeforeClass
 	public static void setUpClass() {
 		// Run once
-		System.out.println(globalvariable.implicit_wait);
+		globalvariable g = new globalvariable();
+		System.out.println("Initialized Global variable" +g);
 	}
 }
 

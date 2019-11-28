@@ -1,54 +1,11 @@
-2019-11-28 11:25:50 [main] DEBUG Log:27 - Implicit Wait is 20
-2019-11-28 11:25:50 [main] DEBUG Log:27 - Browser is chrome
-2019-11-28 11:25:50 [main] DEBUG Log:27 - Run Mode is UI
-2019-11-28 11:25:50 [main] DEBUG Log:27 - Initializing chrome
-2019-11-28 11:25:52 [main] DEBUG Log:27 - Chrome will be initialized in with UI
-2019-11-28 11:25:54 [main] DEBUG Log:27 - Chrome Initialized
-2019-11-28 11:25:56 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (bf530b47d00d7417bb7ce2f5a7c583d4)] -> name: q]
-2019-11-28 11:25:57 [main] DEBUG Log:27 - Element Clickable %s[[ChromeDriver: chrome on MAC (bf530b47d00d7417bb7ce2f5a7c583d4)] -> name: btnK]
-2019-11-28 11:26:18 [main] DEBUG Log:27 - Scrolled to and clicked on Proxy element for: DefaultElementLocator 'By.name: btnK'
-2019-11-28 11:26:18 [main] INFO  Log:31 - Search is completed
-2019-11-28 11:26:18 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (bf530b47d00d7417bb7ce2f5a7c583d4)] -> css selector: div.logo img[alt*='Google']]
-2019-11-28 11:26:19 [main] DEBUG Log:27 - Implicit Wait is 20
-2019-11-28 11:26:19 [main] DEBUG Log:27 - Browser is chrome
-2019-11-28 11:26:19 [main] DEBUG Log:27 - Run Mode is UI
-2019-11-28 11:26:19 [main] DEBUG Log:27 - Initializing chrome
-2019-11-28 11:26:19 [main] DEBUG Log:27 - Chrome will be initialized in with UI
-2019-11-28 11:26:20 [main] DEBUG Log:27 - Chrome Initialized
-2019-11-28 11:26:22 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (a931fe3807502773e9eae3f5dc24699d)] -> name: q]
-2019-11-28 11:26:23 [main] DEBUG Log:27 - Element Clickable %s[[ChromeDriver: chrome on MAC (a931fe3807502773e9eae3f5dc24699d)] -> name: btnK]
-2019-11-28 11:26:44 [main] DEBUG Log:27 - Scrolled to and clicked on Proxy element for: DefaultElementLocator 'By.name: btnK'
-2019-11-28 11:26:44 [main] INFO  Log:31 - Search is completed
-2019-11-28 11:27:26 [main] DEBUG Log:27 - Implicit Wait is 20
-2019-11-28 11:27:26 [main] DEBUG Log:27 - Browser is chrome
-2019-11-28 11:27:26 [main] DEBUG Log:27 - Run Mode is UI
-2019-11-28 11:27:26 [main] DEBUG Log:27 - Initializing chrome
-2019-11-28 11:27:27 [main] DEBUG Log:27 - Chrome will be initialized in with UI
-2019-11-28 11:27:28 [main] DEBUG Log:27 - Chrome Initialized
-2019-11-28 11:27:29 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (98a90e7e2ddf749c76c44251f29e2e84)] -> name: q]
-2019-11-28 11:27:29 [main] DEBUG Log:27 - Element Clickable %s[[ChromeDriver: chrome on MAC (98a90e7e2ddf749c76c44251f29e2e84)] -> name: btnK]
-2019-11-28 11:27:56 [main] DEBUG Log:27 - Scrolled to and clicked on Proxy element for: DefaultElementLocator 'By.name: btnK'
-2019-11-28 11:27:56 [main] INFO  Log:31 - Search is completed
-2019-11-28 11:27:56 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (98a90e7e2ddf749c76c44251f29e2e84)] -> css selector: div.logo img[alt*='Google']]
-2019-11-28 11:27:56 [main] DEBUG Log:27 - Implicit Wait is 20
-2019-11-28 11:27:56 [main] DEBUG Log:27 - Browser is chrome
-2019-11-28 11:27:56 [main] DEBUG Log:27 - Run Mode is UI
-2019-11-28 11:27:56 [main] DEBUG Log:27 - Initializing chrome
-2019-11-28 11:27:56 [main] DEBUG Log:27 - Chrome will be initialized in with UI
-2019-11-28 11:27:57 [main] DEBUG Log:27 - Chrome Initialized
-2019-11-28 11:27:59 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (6927d9dd9e50aabe7d3fe24f37d0a0c1)] -> name: q]
-2019-11-28 11:28:00 [main] DEBUG Log:27 - Element Clickable %s[[ChromeDriver: chrome on MAC (6927d9dd9e50aabe7d3fe24f37d0a0c1)] -> name: btnK]
-2019-11-28 11:28:23 [main] DEBUG Log:27 - Scrolled to and clicked on Proxy element for: DefaultElementLocator 'By.name: btnK'
-2019-11-28 11:28:23 [main] INFO  Log:31 - Search is completed
-2019-11-28 11:28:23 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (6927d9dd9e50aabe7d3fe24f37d0a0c1)] -> css selector: div.logo img[alt*='Google']]
-2019-11-28 11:28:23 [main] DEBUG Log:27 - Implicit Wait is 20
-2019-11-28 11:28:23 [main] DEBUG Log:27 - Browser is chrome
-2019-11-28 11:28:23 [main] DEBUG Log:27 - Run Mode is UI
-2019-11-28 11:28:23 [main] DEBUG Log:27 - Initializing chrome
-2019-11-28 11:28:23 [main] DEBUG Log:27 - Chrome will be initialized in with UI
-2019-11-28 11:28:24 [main] DEBUG Log:27 - Chrome Initialized
-2019-11-28 11:28:27 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (c1605fba289ea0cf733543d1ac33cfca)] -> name: q]
-2019-11-28 11:28:27 [main] DEBUG Log:27 - Element Clickable %s[[ChromeDriver: chrome on MAC (c1605fba289ea0cf733543d1ac33cfca)] -> name: btnK]
-2019-11-28 11:28:50 [main] DEBUG Log:27 - Scrolled to and clicked on Proxy element for: DefaultElementLocator 'By.name: btnK'
-2019-11-28 11:28:50 [main] INFO  Log:31 - Search is completed
-2019-11-28 11:28:50 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (c1605fba289ea0cf733543d1ac33cfca)] -> css selector: div.logo img[alt*='Google']]
+2019-11-28 14:00:45 [main] DEBUG Log:27 - Implicit Wait is 20
+2019-11-28 14:00:45 [main] DEBUG Log:27 - Browser is chrome
+2019-11-28 14:00:45 [main] DEBUG Log:27 - Run Mode is UI
+2019-11-28 14:00:45 [main] DEBUG Log:27 - Initializing chrome
+2019-11-28 14:00:47 [main] DEBUG Log:27 - Chrome will be initialized in with UI
+2019-11-28 14:00:48 [main] DEBUG Log:27 - Chrome Initialized
+2019-11-28 14:00:50 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (e1b6a105cfb7e2b316841d309e0b3d3d)] -> name: q]
+2019-11-28 14:00:51 [main] DEBUG Log:27 - Element Clickable %s[[ChromeDriver: chrome on MAC (e1b6a105cfb7e2b316841d309e0b3d3d)] -> name: btnK]
+2019-11-28 14:01:12 [main] DEBUG Log:27 - Scrolled to and clicked on Proxy element for: DefaultElementLocator 'By.name: btnK'
+2019-11-28 14:01:12 [main] INFO  Log:31 - Search is completed
+2019-11-28 14:01:12 [main] DEBUG Log:27 - Element visible %s[[ChromeDriver: chrome on MAC (e1b6a105cfb7e2b316841d309e0b3d3d)] -> css selector: div.logo img[alt*='Google']]

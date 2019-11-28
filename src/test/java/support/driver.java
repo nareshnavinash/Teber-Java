@@ -16,18 +16,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class driver implements WebDriver {
 	public static WebDriver dr;
 	public static List<WebDriver> drs = new ArrayList<WebDriver>();
-	globalvariable g = new globalvariable();
-	String implicit_wait = g.getImplicitWait();
-	String browser = g.getBrowser();
-	String mode = g.getMode();
+	String mode = null;
 	
 	public driver() {
-		switch(browser)
+		switch(globalvariable.browser)
 		{
 		case "chrome":
 			support.Log.debug("Initializing chrome");
 			WebDriverManager.chromedriver().arch64().setup();
 			ChromeOptions options = new ChromeOptions();
+			mode = globalvariable.mode;
 			if (System.getProperty("MODE").equals("headless")) {
 				mode ="headless";
 			}
@@ -40,7 +38,7 @@ public class driver implements WebDriver {
 			}
 	 		WebDriver dr = new ChromeDriver(options);
 	 		dr.manage().deleteAllCookies();
-	 		dr.manage().timeouts().implicitlyWait(Integer.parseInt(implicit_wait), TimeUnit.SECONDS);
+	 		dr.manage().timeouts().implicitlyWait(Integer.parseInt(globalvariable.implicit_wait), TimeUnit.SECONDS);
 	        driver.dr = dr;
 	        drs.add(driver.dr);
 	        support.Log.debug("Chrome Initialized");
