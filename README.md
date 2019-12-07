@@ -6,7 +6,7 @@ Basic Framework setup in Page Object Model for Selenium with cucumber, maven and
 [![Made with Java](https://img.shields.io/badge/Made%20with-Java-red.svg)](https://www.java.com/en/)
 [![StackOverflow](http://img.shields.io/badge/Stack%20Overflow-Ask-blue.svg)]( https://stackoverflow.com/users/10505289/naresh-sekar )
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![email me](https://img.shields.io/badge/Contact-Email-green.svg)](nareshnavinash@gmail.com)
+[![email me](https://img.shields.io/badge/Contact-Email-green.svg)](mailto:nareshnavinash@gmail.com)
 
 
 
